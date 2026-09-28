@@ -1,0 +1,15 @@
+services:
+  backend:
+    build: ./backend
+    environment:
+      DATA_MODE: demo
+      UPDATE_SECONDS: 10
+    ports:
+      - "8000:8000"
+
+  frontend:
+    build: ./frontend
+    depends_on:
+      - backend
+    ports:
+      - "5173:5173"

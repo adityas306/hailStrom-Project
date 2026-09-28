@@ -1,0 +1,16 @@
+fastapi>=0.115
+uvicorn[standard]>=0.30
+pydantic>=2.8
+numpy>=1.26
+python-dotenv>=1.0
+httpx>=0.27
+torch>=2.4
+torchvision
+torchaudio
+
+xarray
+netCDF4
+scipy
+open-radar-data
+xradar
+httpx

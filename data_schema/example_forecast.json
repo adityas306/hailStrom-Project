@@ -1,0 +1,22 @@
+{
+  "timestamp": "2026-09-26T18:48:00Z",
+  "source_status": {
+    "dwr": "LIVE",
+    "insat": "LIVE",
+    "lightning": "LIVE"
+  },
+  "grid_resolution_km": 3,
+  "forecast_horizon_hours": 6,
+  "location": {
+    "name": "Lucknow",
+    "lat": 26.8467,
+    "lon": 80.9462
+  },
+  "hazards": {
+    "storm_probability": 0.82,
+    "lightning_density_per_100km2": 18.5,
+    "hail_probability": 0.61,
+    "cloudburst_probability": 0.47,
+    "downburst_probability": 0.42
+  }
+}
