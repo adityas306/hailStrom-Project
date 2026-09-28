@@ -245,7 +245,6 @@ StormCast_India/
 
 ```bash
 git clone <YOUR_GITHUB_REPOSITORY_URL>
-cd StormCast_India
 ```
 
 ---
